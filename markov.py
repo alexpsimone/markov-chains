@@ -68,14 +68,17 @@ def make_chains(text_string):
     return chains
 
 
-# def make_text(chains):
-#     """Return text from chains."""
+def make_text(chains):
+    """Return text from chains."""
 
-#     words = []
+    words = []
+    print(list(chains.keys()))
 
-#     # your code goes here
+    random_key = choice(list(chains.keys()))
+    # print(random_key)
 
-#     return ' '.join(words)
+
+    return ' '.join(words)
 
 
 # input_path = 'green-eggs.txt'
